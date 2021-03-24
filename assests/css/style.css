@@ -1,0 +1,101 @@
+* {
+  border: 0px;     
+  padding: 0px;
+}
+
+#navbar{
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+#navbar ul {
+list-style-type: none;
+margin-top: 10;
+display: flex;
+
+}
+#navbar ul li{
+ 
+  margin: 25px;
+  font-style: italic;
+  font-size: 28px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+a {
+
+text-decoration: none;  
+font-style: bold;
+}
+#background{
+  height: 150px;
+  
+  background-image: url("../images/jess-bailey-q10VITrVYUM-unsplash\ \(1\).jpg");
+  background-repeat:repeat ;
+  background-position: center
+}
+h1{
+  margin-left: 20px;
+  padding-top: 66px;
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.aboutme {
+  
+  background-repeat:no-repeat;
+  background-image: url("assets/images/header.jpg");  
+
+}
+.aboutme, .Work, P { 
+font-size: 26PX;
+  margin: 50px 50px;
+color: rgb(92, 24, 156);
+}
+.aboutme, .Work,.contact{
+   
+  border:5px solid rgb(220, 158, 223) ; 
+  border-radius: 20px;
+  border-style: dotted;
+
+}
+
+#contact{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(92, 24, 156);
+}
+
+#backpic{
+  background-position: right;
+  background-repeat:no-repeat;
+  background-image: url("assets/images/header.jpg");  
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+header,
+nav{
+  flex-direction: column;
+}
+
+}
+@media screen and (max-width: 780px) {
+ footer, 
+section {
+  flex-direction: column;
+}
+}
